@@ -21,6 +21,7 @@ public class MainActivity extends BaseActivity {
         //setContentView(R.layout.activity_main);
         Intent intent = new Intent(MediaStore.Audio.Media.RECORD_SOUND_ACTION);
         startActivityForResult(intent, RECORD_AUDIO);
+
     }
 
     @Override
